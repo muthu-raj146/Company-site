@@ -1,0 +1,506 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+navbar{
+    position: sticky;
+    top: 0;
+}
+
+
+/* Header section */
+.homescreen {
+
+    width: 100%;
+    height: 90vh;
+    background-image: url("./img/header-bg.png");
+    background-size: cover;
+    object-fit: cover;
+}
+
+.header-logo-nav {
+    display: flex;
+    padding: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(225, 229, 241);
+    margin: 10px;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 7px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav a {
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 2px 10px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.nav a:hover {
+    color: aliceblue;
+    background: #656678;
+    opacity: 0.5;
+}
+
+.header-content {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color: aliceblue;
+    width: 100%;
+
+}
+
+.content {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 250px;
+    background: red;
+    height: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.content a {
+    text-decoration: none;
+    color: aliceblue;
+    background: rgb(239, 16, 16);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 auto;
+
+}
+
+.content a:hover {
+    color: aliceblue;
+    background: rgb(239, 16, 16);
+    opacity: 0.5;
+}
+
+
+/* container section */
+.container {
+
+    margin: 0 auto;
+}
+
+.content-event {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.row {
+    height: 450px;
+    width: 400px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px 5px#888888;
+}
+
+.row img {
+    width: 400px;
+    padding: 10px;
+}
+
+.row h3 {
+    text-align: center;
+    margin: 10px;
+    color: rgb(84, 12, 150);
+}
+
+.row p {
+    padding: 10px 25px;
+    margin: 10px;
+}
+
+.row a {
+    text-decoration: none;
+    color: aliceblue;
+    background: rgb(239, 16, 16);
+    border-radius: 20px;
+    padding: 10px;
+    left: 158px;
+    position: relative;
+    display: none;
+
+}
+
+.row:hover a {
+    color: aliceblue;
+    background: rgb(239, 16, 16);
+    display: inline-block;
+}
+
+/* explore section */
+.explore {
+    background-image: url("./img/bg2.png");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    overflow: auto;
+
+}
+
+.explore-content {
+    width: 1000px;
+    margin: auto 4%;
+    color: aliceblue;
+}
+
+.explore-content h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.explore-content p {
+    padding: 15px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.explore-content a {
+    text-decoration: none;
+    color: aliceblue;
+    background: rgb(239, 16, 16);
+    border-radius: 20px;
+    padding: 10px 50px;
+    left: 410px;
+    position: relative;
+    display: inline-block;
+}
+
+.explore-content a:hover {
+    color: aliceblue;
+    background: rgb(239, 16, 16);
+    opacity: 0.5;
+}
+
+/* articles in explore */
+.card-explore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin: 20px auto;
+
+}
+
+.img {
+    width: 605px;
+}
+
+.card-row {
+    width: 350px;
+}
+
+.card-row h2 {
+    font-size: 40px;
+    line-height: 70px;
+    margin: 0 15px;
+
+}
+
+.card-row p {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.card-row a {
+    text-decoration: none;
+    color: aliceblue;
+    background: rgb(239, 16, 16);
+    border-radius: 20px;
+    padding: 10px 15px;
+
+    display: inline-block;
+}
+
+.card-row a:hover {
+    color: aliceblue;
+    background: rgb(239, 16, 16);
+    opacity: 0.5;
+}
+
+.line-explore {
+    background: red;
+    height: 5px;
+    margin: 0px 50% 0px 15px;
+    border-radius: 5px;
+}
+
+.img-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.img-row img {
+    padding: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    background: linear-gradient(to bottom right, #ebebebbc, #1236f2, #e37575);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 300px;
+}
+
+footer p {
+    text-align: center;
+    line-height: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* tour webpage  */
+
+
+
+.tourscreen {
+
+
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2019/02/Iceland-1.jpg");
+    background-size: cover;
+
+}
+
+/* src="https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/10/Poland-10.jpg" alt=""> */
+
+.card-tour {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+.row-tour1:nth-child(1) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/10/Sweden-13.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour1:nth-child(2) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/10/France-13.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour1:nth-child(3) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/10/Poland-13.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour1:nth-child(4) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/10/Argentina-14.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour1:nth-child(5) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/10/Norway-14.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour1:nth-child(6) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/10/USA-14.jpg ");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour2:nth-child(1) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/09/Poland-1.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour2:nth-child(2) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/10/Poland-10.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour2:nth-child(3) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/10/Poland-11.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour2:nth-child(4) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/09/Poland-3.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour2:nth-child(5) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/09/Poland-7.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.row-tour2:nth-child(6) {
+    width: 400px;
+    height: 30vh;
+    background-image: url("https://demo.crocoblock.com/travengo-new/wp-content/uploads/2020/10/Poland-14.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+
+
+
+}
+
+.row-tour1 p {
+    font-size: 20px;
+    display: none;
+}
+
+.row-tour2 p {
+    font-size: 20px;
+    display: none;
+}
+
+.row-tour1:hover p {
+    color: aliceblue;
+    display: block;
+    
+}
+.row-tour1:hover{
+    opacity: 0.7;
+}
+
+.row-tour2:hover p {
+    color: aliceblue;
+    display: block;
+    opacity: 0.9;
+}
+.row-tour2:hover{
+    opacity: 0.7;
+}
